@@ -8,7 +8,7 @@ import textwrap
 class ReLCSConan(ConanFile):
     name = "reLCS"
     version = "master"
-    license = "???"  # FIXME: https://github.com/GTAmodding/re3/issues/794
+    license = "???"  # FIXME: https://github.com/GTAmodding/re3/issues/794 +95+95
     settings = "os", "arch", "compiler", "build_type"
     generators = "cmake", "cmake_find_package"
     options = {
